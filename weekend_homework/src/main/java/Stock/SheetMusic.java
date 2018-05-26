@@ -8,4 +8,12 @@ public class SheetMusic extends Accessory{
         super(description, boughtPrice, soldPrice);
         this.style = style;
     }
+
+    public String getStyle() {
+        return style;
+    }
+
+    public double getMarkUp() {
+        return this.getSoldPrice() - this.getBoughtPrice();
+    }
 }
