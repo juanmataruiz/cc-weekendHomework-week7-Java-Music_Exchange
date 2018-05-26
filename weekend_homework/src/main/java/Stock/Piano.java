@@ -1,6 +1,5 @@
 package Stock;
 
-
 public class Piano extends Instrument {
 
     private int numberOfKeys;
